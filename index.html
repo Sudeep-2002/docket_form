@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Create Docket</title>
+</head>
+
+<body>
+    <h1>DOCKET PARSING TASK</h1>
+    <form id="docketForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="startTime">Start Time:</label>
+        <input type="time" id="startTime" name="startTime" required><br><br>
+
+        <label for="endTime">End Time:</label>
+        <input type="time" id="endTime" name="endTime" required><br><br>
+
+        <label for="hoursWorked">No. of Hours Worked:</label>
+        <input type="number" id="hoursWorked" name="hoursWorked" required><br><br>
+
+        <label for="ratePerHour">Rate per Hour:</label>
+        <input type="number" id="ratePerHour" name="ratePerHour" required><br><br>
+
+        <label for="supplier">Supplier Name:</label>
+        <select id="supplier" name="supplier" required>
+            <!-- Options will be populated using JavaScript -->
+        </select><br><br>
+
+        <label for="purchaseOrder">Purchase Order:</label>
+        <select id="purchaseOrder" name="purchaseOrder" required>
+            <!-- Options will be populated using JavaScript -->
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>@Sudeep P</p>
+</footer>
+</html>
